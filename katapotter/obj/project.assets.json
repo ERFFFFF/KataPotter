@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dakev\\.nuget\\packages\\": {}
+    "C:\\Users\\windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
+      "projectUniqueName": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj",
       "projectName": "katapotter",
-      "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
-      "packagesPath": "C:\\Users\\Dakev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\obj\\",
+      "projectPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj",
+      "packagesPath": "C:\\Users\\windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dakev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,11 +9,20 @@ namespace Testpotter
         [TestMethod]
         public void TestDebit()
         {
-            double amountStart = 11.99;
-            double amountDebit = 11.22;
-            double amountEnd = 0.77;
+            double m_balance = 11.99;
+            double amount = 11.22;
+            double m_balance_end = 0.77;
 
-            BankAccount bank = new BankAccount("oui", amountStart);
+            BankAccount bank = new BankAccount("Tom", m_balance);
+
+            bank.Debit(amount);
+
+            double test = bank.Balance;
+            Assert.AreEqual(m_balance_end, test, 0.001, "Test de débit ok");
+
+           // ca marche pas car on a des double en paramètre a la place d'objets ? -> Assert.Equals(m_balance_end, test);
+
+            
         }
     }
 }
