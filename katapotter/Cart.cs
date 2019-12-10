@@ -12,7 +12,6 @@ namespace Testpotter
         public Cart() {
             listBook = new List<Book>();
         }
-
         
         public int getItemCount()
         {
@@ -41,6 +40,14 @@ namespace Testpotter
                 default:
                     return 0.95;
                     break;
+            }
+        }
+
+        public void ReadList()
+        {
+            foreach(var elements in listBook)
+            {
+                Console.WriteLine(elements.name);
             }
         }
     }

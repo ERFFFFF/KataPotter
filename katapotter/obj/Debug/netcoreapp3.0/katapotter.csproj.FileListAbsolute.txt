@@ -20,3 +20,14 @@ C:\Users\Dakev\source\repos\kata\katapotter\obj\Debug\netcoreapp3.0\katapotter.A
 C:\Users\Dakev\source\repos\kata\katapotter\obj\Debug\netcoreapp3.0\katapotter.AssemblyInfo.cs
 C:\Users\Dakev\source\repos\kata\katapotter\obj\Debug\netcoreapp3.0\katapotter.dll
 C:\Users\Dakev\source\repos\kata\katapotter\obj\Debug\netcoreapp3.0\katapotter.pdb
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.exe
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.deps.json
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.runtimeconfig.json
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.runtimeconfig.dev.json
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.dll
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\bin\Debug\netcoreapp3.0\katapotter.pdb
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\obj\Debug\netcoreapp3.0\katapotter.csprojAssemblyReference.cache
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\obj\Debug\netcoreapp3.0\katapotter.AssemblyInfoInputs.cache
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\obj\Debug\netcoreapp3.0\katapotter.AssemblyInfo.cs
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\obj\Debug\netcoreapp3.0\katapotter.dll
+C:\Users\ERFFFFF\source\repos\katapotter\katapotter\obj\Debug\netcoreapp3.0\katapotter.pdb

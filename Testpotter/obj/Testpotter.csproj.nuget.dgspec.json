@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj": {}
+    "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\Testpotter\\Testpotter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj": {
+    "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\katapotter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
+        "projectUniqueName": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\katapotter.csproj",
         "projectName": "katapotter",
-        "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
-        "packagesPath": "C:\\Users\\Dakev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\obj\\",
+        "projectPath": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\katapotter.csproj",
+        "packagesPath": "C:\\Users\\ERFFFFF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dakev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ERFFFFF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -47,27 +51,49 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj": {
+    "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\Testpotter\\Testpotter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj",
+        "projectUniqueName": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\Testpotter\\Testpotter.csproj",
         "projectName": "Testpotter",
-        "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj",
-        "packagesPath": "C:\\Users\\Dakev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\obj\\",
+        "projectPath": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\Testpotter\\Testpotter.csproj",
+        "packagesPath": "C:\\Users\\ERFFFFF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\Testpotter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dakev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ERFFFFF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -79,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj": {
-                "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj"
+              "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\katapotter.csproj": {
+                "projectPath": "C:\\Users\\ERFFFFF\\source\\repos\\katapotter\\katapotter\\katapotter.csproj"
               }
             }
           }
@@ -121,12 +147,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

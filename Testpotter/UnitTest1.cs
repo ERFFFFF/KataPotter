@@ -28,7 +28,7 @@ namespace Testpotter
         public void Test_GivenOneBookWhenAddingToCartShouldContainOneItem()
         {
             Cart myCart = new Cart();
-            myCart.add(new Book());
+            myCart.add(new Book("book1"));
             Assert.AreEqual(myCart.getItemCount(), 1);
         }
 
@@ -36,8 +36,8 @@ namespace Testpotter
         public void Test_GivenTwoBookWhenAddingToCartShouldCountainTwoItems()
         {
             Cart myCart = new Cart();
-            myCart.add(new Book());
-            myCart.add(new Book());
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
             Assert.AreEqual(myCart.getItemCount(), 2);
 
         }
@@ -45,7 +45,7 @@ namespace Testpotter
         [TestMethod]
         public void Test_GivenOneBookToCartShouldAddPrice() {
             Cart myCart = new Cart();
-            myCart.add(new Book());
+            myCart.add(new Book("book1"));
             Assert.AreEqual(myCart.getTotalPrice(), 8);
         }
 
@@ -53,9 +53,17 @@ namespace Testpotter
         public void Test_GivenTwoBookToCartShouldApplyDiscount()
         {
             Cart myCart = new Cart();
-            myCart.add(new Book());
-            myCart.add(new Book());
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
             Assert.AreEqual(15.2, myCart.getTotalPrice());
+        }
+        [TestMethod]
+        public void Test_GivenTwoBookToCartShoulNotdApplyDiscount()
+        {
+            Cart myCart = new Cart();
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
+            Assert.AreNotEqual("book1", myCart);
         }
     }
 }
