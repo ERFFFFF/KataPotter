@@ -14,6 +14,8 @@ namespace katapotter
 
             ba.Debit(11.22);
             Console.WriteLine("il vous reste actuellement {0} € sur votre compte en banque.", ba.Balance);*/
+
+
         }
     }
 }

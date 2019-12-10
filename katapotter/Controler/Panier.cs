@@ -4,7 +4,9 @@ using System.Text;
 
 namespace katapotter
 {
-    class Panier
+    public class Panier
     {
+
+        public addLivre (){}
     }
 }

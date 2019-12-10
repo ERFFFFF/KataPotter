@@ -21,8 +21,7 @@ namespace Testpotter
             Assert.AreEqual(m_balance_end, test, 0.001, "Test de débit ok");
 
            // ca marche pas car on a des double en paramètre a la place d'objets ? -> Assert.Equals(m_balance_end, test);
-
-            
+           
         }
     }
 }
