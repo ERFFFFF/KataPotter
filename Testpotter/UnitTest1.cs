@@ -62,8 +62,8 @@ namespace Testpotter
         {
             Cart myCart = new Cart();
             myCart.add(new Book("book1"));
-            myCart.add(new Book("book2"));
-            Assert.AreNotEqual("book1", myCart);
+            myCart.add(new Book("book1"));
+            Assert.AreNotEqual(15.2, myCart.getTotalPrice());
         }
     }
 }

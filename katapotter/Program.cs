@@ -17,6 +17,7 @@ namespace katapotter
             Console.WriteLine("il vous reste actuellement {0} € sur votre compte en banque.", ba.Balance);*/
             Cart oui = new Cart();
             oui.ReadList();
+            Console.ReadLine();
         }
     }
 }

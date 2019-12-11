@@ -7,7 +7,7 @@ namespace Testpotter
 {
     public class Cart
     {
-        private List<Book> listBook;
+        public List<Book> listBook;
         
         public Cart() {
             listBook = new List<Book>();
@@ -37,15 +37,35 @@ namespace Testpotter
                 case 1:
                     return 1;
                     break;
+                case 2:
+                    return CompareElementsInList();
+                    break;
+                case 3:
+                    return 0.90;
+                    break;
+                case 4:
+                    return 0.80;
+                    break;
+                case 5:
+                    return 0.75;
+                    break;
                 default:
-                    return 0.95;
+                    return 1;
                     break;
             }
         }
 
+        public double CompareElementsInList()
+        {
+            if(listBook[0].name != listBook[1].name)
+            {
+                return 0.95; 
+            }
+            return 1;
+        }
         public void ReadList()
         {
-            foreach(var elements in listBook)
+            foreach (var elements in listBook)
             {
                 Console.WriteLine(elements.name);
             }
