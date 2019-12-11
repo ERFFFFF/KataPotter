@@ -60,8 +60,6 @@ vior to automatically normalize line endings.
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-./katapotter/obj
-./katapotter/bin
-./katapotter/.vs
-./Testpotter/bin
-./Testpotter/obj
+/obj
+/bin
+/.vs
