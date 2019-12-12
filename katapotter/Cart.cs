@@ -7,21 +7,53 @@ namespace Testpotter
 {
     public class Cart
     {
-        public List<Book> listBook;
-        
+
+        public List<Book> ListBook { get; set; }
+        public List<Book> ListBook1 { get; set; }
+        public List<Book> ListBook2 { get; set; }
+        public List<Book> ListBook3 { get; set; }
+        public List<Book> ListBook4 { get; set; }
+        public List<Book> ListBook5 { get; set; }
+
         public Cart() {
-            listBook = new List<Book>();
+            ListBook = new List<Book>();
+            ListBook1 = new List<Book>();
+            ListBook2 = new List<Book>();
+            ListBook3 = new List<Book>();
+            ListBook4 = new List<Book>();
+            ListBook5 = new List<Book>();
         }
         
         public int getItemCount()
         {
-            int bookNumber = listBook.Count();
+            int bookNumber = ListBook.Count();
             return bookNumber;
         }
 
         public void add(Book book)
         {
-            listBook.Add(book);
+            ListBook.Add(book);
+            switch (book.name)
+            {
+                case "book1":
+                    ListBook1.Add(book);
+                    break;
+
+                case "book2":
+                    ListBook2.Add(book);
+                    break;
+                case "book3":
+                    ListBook3.Add(book);
+                    break;
+                case "book4":
+                    ListBook4.Add(book);
+                    break;
+                case "book5":
+                    ListBook5.Add(book);
+                    break;
+                default:
+                    break;
+            }
         }
 
         public double getTotalPrice()
@@ -31,7 +63,7 @@ namespace Testpotter
 
         public double discount()
         {
-            int bookNumber = listBook.Count();
+            int bookNumber = ListBook.Count();
             switch (bookNumber)
             {
                 case 1:
@@ -57,7 +89,7 @@ namespace Testpotter
 
         public double CompareElementsInList()
         {
-            if(listBook[0].name != listBook[1].name)
+            if(ListBook[0].name != ListBook[1].name)
             {
                 return 0.95; 
             }
@@ -65,7 +97,7 @@ namespace Testpotter
         }
         public void ReadList()
         {
-            foreach (var elements in listBook)
+            foreach (var elements in ListBook)
             {
                 Console.WriteLine(elements.name);
             }

@@ -57,13 +57,84 @@ namespace Testpotter
             myCart.add(new Book("book2"));
             Assert.AreEqual(15.2, myCart.getTotalPrice());
         }
+        
         [TestMethod]
         public void Test_GivenTwoBookToCartShoulNotdApplyDiscount()
         {
             Cart myCart = new Cart();
             myCart.add(new Book("book1"));
             myCart.add(new Book("book1"));
-            Assert.AreNotEqual(15.2, myCart.getTotalPrice());
+            Assert.AreEqual(16, myCart.getTotalPrice());
+        }
+
+        [TestMethod]
+        public void Test_GivenThreeBookToCartShouldNotApplyDiscount()
+        {
+            Cart myCart = new Cart();
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book3"));
+            Assert.AreEqual(21.6, myCart.getTotalPrice());
+        }
+
+        [TestMethod]
+        public void Test_GiveThreeBookWithTwoSameBook()
+        {
+            Cart myCart = new Cart();
+
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book1"));
+            Assert.AreEqual(myCart.ListBook1[0].name, myCart.ListBook1[1].name);
+        }
+        [TestMethod]
+        public void Test_GivenFourBookWith()
+        {
+            Cart myCart = new Cart();
+
+            myCart.add(new Book("book3"));
+            myCart.add(new Book("book3"));
+            myCart.add(new Book("book4"));
+            myCart.add(new Book("book4"));
+            Assert.AreEqual(myCart.ListBook3[0].name, myCart.ListBook3[1].name);
+            Assert.AreEqual(myCart.ListBook4[0].name, myCart.ListBook4[1].name);
+        }
+        [TestMethod]
+        public void Test_GivenSerieShouldApplyDiscount()
+        {
+            Cart myCart = new Cart();
+
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book3"));
+            myCart.add(new Book("book4"));
+            myCart.add(new Book("book5"));
+            Assert.AreEqual(30, myCart.getTotalPrice());
+        }
+        [TestMethod]
+        public void Test_GivenSerieShouldNotApplyDiscount()
+        {
+            Cart myCart = new Cart();
+
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book2"));
+            Assert.AreEqual(30, myCart.getTotalPrice());
+        }
+        [TestMethod]
+        public void Test_GivenSerieShouldReturn38()
+        {
+            Cart myCart = new Cart();
+
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book1"));
+            myCart.add(new Book("book2"));
+            myCart.add(new Book("book3"));
+            myCart.add(new Book("book4"));
+            myCart.add(new Book("book5"));
+            Assert.AreEqual(38, myCart.getTotalPrice());
         }
     }
 }

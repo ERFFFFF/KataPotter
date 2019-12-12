@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj": {}
+    "C:\\Users\\windows\\Source\\Repos\\katapotter\\Testpotter\\Testpotter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj": {
+    "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
+        "projectUniqueName": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj",
         "projectName": "katapotter",
-        "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj",
-        "packagesPath": "C:\\Users\\Dakev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\obj\\",
+        "projectPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj",
+        "packagesPath": "C:\\Users\\windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dakev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj": {
+    "C:\\Users\\windows\\Source\\Repos\\katapotter\\Testpotter\\Testpotter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj",
+        "projectUniqueName": "C:\\Users\\windows\\Source\\Repos\\katapotter\\Testpotter\\Testpotter.csproj",
         "projectName": "Testpotter",
-        "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\Testpotter.csproj",
-        "packagesPath": "C:\\Users\\Dakev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dakev\\source\\repos\\kata\\Testpotter\\obj\\",
+        "projectPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\Testpotter\\Testpotter.csproj",
+        "packagesPath": "C:\\Users\\windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\Testpotter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dakev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj": {
-                "projectPath": "C:\\Users\\Dakev\\source\\repos\\kata\\katapotter\\katapotter.csproj"
+              "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj": {
+                "projectPath": "C:\\Users\\windows\\Source\\Repos\\katapotter\\katapotter\\katapotter.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
